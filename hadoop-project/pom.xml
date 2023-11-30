@@ -1432,7 +1432,7 @@
         <dependency>
           <groupId>org.apache.kerby</groupId>
           <artifactId>kerb-simplekdc</artifactId>
-          <version>1.0.1</version>
+          <version>1.1.1</version>
         </dependency>
         <dependency>
           <groupId>org.apache.geronimo.specs</groupId>
@@ -1908,7 +1908,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/&gt;
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
