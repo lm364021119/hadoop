@@ -37,7 +37,7 @@ Dockerfile to run Tensorflow on YARN need two part:
 
 Here's an example of a base image (w/o GPU support) to install Tensorflow:
 ```
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 # Pick up some TF dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
