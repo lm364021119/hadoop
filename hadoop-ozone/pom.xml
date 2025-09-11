@@ -31,7 +31,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <properties>
     <hadoop.version>3.2.0</hadoop.version>
-    <hdds.version>0.4.0-SNAPSHOT</hdds.version>
+    <hdds.version>1.1.0</hdds.version>
     <ozone.version>0.4.0-SNAPSHOT</ozone.version>
     <ratis.version>0.4.0-f283ffa-SNAPSHOT</ratis.version>
     <bouncycastle.version>1.60</bouncycastle.version>
@@ -304,7 +304,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>findbugs-maven-plugin</artifactId>
         <configuration>
-          <excludeFilterFile combine.self="override"></excludeFilterFile>
+          <excludeFilterFile combine.self="override"/>
         </configuration>
       </plugin>
       <plugin>
